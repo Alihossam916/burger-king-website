@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@import "flowbite/src/themes/default";
+
+/* Define custom fonts with @font-face */
+@font-face {
+  font-family: 'Flame-Bold';
+  src: url('./fonts/Flame-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Flame-Regular';
+  src: url('./fonts/Flame-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@theme {
+  /* custom colors */
+  --color-bg-primary: #eee8de;
+  --color-bg-secondary: #502314;
+  --color-text-primary: #f6ebdc;
+  --color-text-secondary: #bba391;
+  --color-text-focus: #da2207;
+  --color-btn-primary: #d62300;
+  --color-btn-secondary: #de4f33;
+
+  /* custom fonts */
+  --font-custom-bold: 'Flame-Bold', sans-serif;
+  --font-custom-regular: 'Flame-Regular', sans-serif;
+}
