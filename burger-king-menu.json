@@ -1,170 +1,296 @@
 {
   "burgers": [
     {
+      "id": 1,
+      "name": "BBQ Brisket Whopper®",
+      "price": 7.79,
+      "image": "./src/images/menu/burgers/BBQ-Brisket-Whopper.png"
+    },
+    {
+      "id": 2,
+      "name": "BBQ Brisket Whopper® Jr.",
+      "price": 7.79,
+      "image": "./src/images/menu/burgers/BBQ-Brisket-Whopper-Jr.png"
+    },
+    {
+      "id": 3,
       "name": "Whopper",
       "price": 7.79,
-      "image": "https://www.bk.com/sites/default/files/0275-BK-Web-Whopper-500x540_CR.png"
+      "image": "./src/images/menu/burgers/whopper.png"
     },
     {
+      "id": 4,
       "name": "Double Whopper",
       "price": 9.19,
-      "image": "https://www.bk.com/sites/default/files/0276-BK-Web-DblWhopper-500x540_CR.png"
+      "image": "./src/images/menu/burgers/double-whopper.png"
     },
     {
+      "id": 5,
       "name": "Triple Whopper",
       "price": 10.69,
-      "image": "https://www.bk.com/sites/default/files/0277-BK-Web-TplWhopper-500x540_CR.png"
+      "image": "./src/images/menu/burgers/triple-whopper.png"
     },
     {
+      "id": 6,
       "name": "Impossible Whopper",
       "price": 9.19,
-      "image": "https://www.bk.com/sites/default/files/0293-BK-Web-ImpossibleWhopper-500x540_CR.png"
+      "image": "./src/images/menu/burgers/impossible-whopper.png"
     },
     {
+      "id": 7,
       "name": "Bacon King",
       "price": 11.89,
-      "image": "https://www.bk.com/sites/default/files/0278-BK-Web-BaconKing-500x540_CR.png"
+      "image": "./src/images/menu/burgers/bacon-king.png"
     },
     {
+      "id": 8,
       "name": "Cheeseburger",
       "price": 2.89,
-      "image": "https://www.bk.com/sites/default/files/0253-BK-Web-Cheeseburger-500x540_CR.png"
+      "image": "./src/images/menu/burgers/cheeseburger.png"
     },
     {
+      "id": 9,
       "name": "Double Cheeseburger",
       "price": 3.89,
-      "image": "https://www.bk.com/sites/default/files/0254-BK-Web-DblCheeseburger-500x540_CR.png"
+      "image": "./src/images/menu/burgers/double-cheeseburger.png"
     },
     {
+      "id": 10,
       "name": "Bacon Cheeseburger",
       "price": 3.59,
-      "image": "https://www.bk.com/sites/default/files/0255-BK-Web-BaconCheeseburger-500x540_CR.png"
+      "image": "./src/images/menu/burgers/bacon-cheeseburger.png"
     }
   ],
   "chicken_and_fish": [
     {
+      "id": 11,
       "name": "Original Chicken Sandwich",
       "price": 6.99,
-      "image": "https://www.bk.com/sites/default/files/0265-BK-Web-OriginalChicken-500x540_CR.png"
+      "image": "./src/images/menu/chicken-and-fish/original-chicken-sandwich.png"
     },
     {
+      "id": 12,
       "name": "Royal Crispy Chicken",
       "price": 7.09,
-      "image": "https://www.bk.com/sites/default/files/20220926_BK_Royal%20Crispy%20Chicken_Silo_500x540_2.png"
+      "image": "./src/images/menu/chicken-and-fish/royal-crispy-chicken.png"
     },
     {
+      "id": 13,
       "name": "Big Fish Sandwich",
       "price": 7.09,
-      "image": "https://www.bk.com/sites/default/files/0268-BK-Web-BigFish-500x540_CR.png"
+      "image": "./src/images/menu/chicken-and-fish/big-fish-sandwich.png"
     },
     {
+      "id": 14,
       "name": "Chicken Fries (8 pc.)",
       "price": 5.29,
-      "image": "https://www.bk.com/sites/default/files/0300-BK-Web-ChickenFries-500x540_CR.png"
+      "image": "./src/images/menu/chicken-and-fish/chicken-fries-8-pc.png"
     },
     {
+      "id": 15,
       "name": "Chicken Nuggets (8 pc.)",
       "price": 3.89,
-      "image": "https://www.bk.com/sites/default/files/0297-BK-Web-ChickenNuggets-500x540_CR.png"
+      "image": "./src/images/menu/chicken-and-fish/chicken-nuggets-8-pc.png"
     }
   ],
   "sides": [
     {
+      "id": 16,
       "name": "French Fries",
       "price": 3.59,
-      "image": "https://www.bk.com/sites/default/files/0303-BK-Web-FrenchFries-500x540_CR.png"
+      "image": "./src/images/menu/sides/french-fries.png"
     },
     {
+      "id": 17,
       "name": "Onion Rings",
       "price": 3.59,
-      "image": "https://www.bk.com/sites/default/files/0304-BK-Web-OnionRings-500x540_CR.png"
+      "image": "./src/images/menu/sides/onion-rings.png"
+    },
+    {
+      "id": 18,
+      "name": "Mozzarella Fries",
+      "price": 3.89,
+      "image": "./src/images/menu/sides/mozzarella-fries.png"
+    },
+    {
+      "id": 19,
+      "name": "Chicken Fries (8 pc.)",
+      "price": 5.29,
+      "image": "./src/images/menu/sides/chicken-fries-8-pc.png"
+    },
+    {
+      "id": 20,
+      "name": "Chicken Nuggets (8 pc.)",
+      "price": 3.89,
+      "image": "./src/images/menu/sides/chicken-nuggets-8-pc.png"
     }
   ],
   "drinks": [
     {
+      "id": 21,
       "name": "Coca-Cola",
       "price": 3.89,
-      "image": "https://www.bk.com/sites/default/files/0401-BK-Web-Coke-500x540_CR_0.png"
+      "image": "./src/images/menu/drinks-and-coffee/coca-cola.png"
     },
     {
+      "id": 22,
       "name": "Diet Coke",
       "price": 3.89,
-      "image": "https://www.bk.com/sites/default/files/0402-BK-Web-DietCoke-500x540_CR_0.png"
+      "image": "./src/images/menu/drinks-and-coffee/diet-coke.png"
     },
     {
+      "id": 23,
       "name": "Coca-Cola Zero Sugar",
       "price": 3.89,
-      "image": "https://www.bk.com/sites/default/files/0403-BK-Web-CokeZeroSugar-500x540_CR.png"
+      "image": "./src/images/menu/drinks-and-coffee/coca-cola-zero-sugar.png"
     },
     {
+      "id": 24,
       "name": "Sprite",
       "price": 3.89,
-      "image": "https://www.bk.com/sites/default/files/0404-BK-Web-Sprite-500x540_CR_0.png"
+      "image": "./src/images/menu/drinks-and-coffee/sprite.png"
     },
     {
+      "id": 25,
       "name": "Dr Pepper",
       "price": 3.89,
-      "image": "https://www.bk.com/sites/default/files/0405-BK-Web-DrPepper-500x540_CR_0.png"
+      "image": "./src/images/menu/drinks-and-coffee/dr-pepper.png"
     },
     {
-      "name": "Fanta Orange",
-      "price": 3.89,
-      "image": "https://www.bk.com/sites/default/files/0406-BK-Web-FantaOrange-500x540_CR.png"
-    },
-    {
-      "name": "Minute Maid Lemonade",
-      "price": 3.89,
-      "image": "https://www.bk.com/sites/default/files/0412-BK-Web-MinuteMaidLemonade-500x540_CR.png"
-    },
-    {
-      "name": "Frozen Fanta Wild Cherry",
-      "price": 2.79,
-      "image": "https://www.bk.com/sites/default/files/0416-BK-Web-FrozenWildCherry-500x540_CR.png"
-    },
-    {
+      "id": 26,
       "name": "Frozen Coke",
       "price": 2.79,
-      "image": "https://www.bk.com/sites/default/files/0415-BK-Web-FrozenCoke-500x540_CR.png"
+      "image": "./src/images/menu/drinks-and-coffee/frozen-coke.png"
     },
     {
-      "name": "BK Café Hot Coffee",
+      "id": 27,
+      "name": "Brewed Coffee",
       "price": 1.99,
-      "image": "https://www.bk.com/sites/default/files/0450-BK-Web-HotCoffee-500x540_CR.png"
+      "image": "./src/images/menu/drinks-and-coffee/Brewed-Coffee.png"
     },
     {
-      "name": "BK Café Iced Coffee",
-      "price": 2.00,
-      "image": "https://www.bk.com/sites/default/files/0451-BK-Web-IcedCoffee-500x540_CR.png"
+      "id": 28,
+      "name": "Decaf Coffee",
+      "price": 2.0,
+      "image": "./src/images/menu/drinks-and-coffee/Decaf-Coffee.png"
     },
     {
-      "name": "Chocolate Oreo Shake",
-      "price": 5.19,
-      "image": "https://www.bk.com/sites/default/files/0460-BK-Web-OreoShake-500x540_CR.png"
-    },
-    {
-      "name": "Chocolate Shake",
-      "price": 5.19,
-      "image": "https://www.bk.com/sites/default/files/0461-BK-Web-ChocolateShake-500x540_CR.png"
-    },
-    {
-      "name": "Vanilla Shake",
-      "price": 5.19,
-      "image": "https://www.bk.com/sites/default/files/0462-BK-Web-VanillaShake-500x540_CR.png"
-    },
-    {
+      "id": 29,
       "name": "Simply Orange Juice",
       "price": 2.99,
-      "image": "https://www.bk.com/sites/default/files/0470-BK-Web-SimplyOrange-500x540_CR.png"
+      "image": "./src/images/menu/drinks-and-coffee/simply-orange-juice.png"
     },
     {
+      "id": 30,
       "name": "Honest Kids Apple Juice Drink",
       "price": 2.29,
-      "image": "https://www.bk.com/sites/default/files/0471-BK-Web-HonestKidsApple-500x540_CR.png"
+      "image": "./src/images/menu/drinks-and-coffee/honest-kids-apple-juice-drink.png"
     },
     {
+      "id": 31,
       "name": "Pure Life Purified Water",
       "price": 2.59,
-      "image": "https://www.bk.com/sites/default/files/0472-BK-Web-Dasani-500x540_CR.png"
+      "image": "./src/images/menu/drinks-and-coffee/pure-life-purified-water.png"
+    }
+  ],
+  "meals": [
+    {
+      "id": 32,
+      "name": "BBQ Brisket Whopper® Meals",
+      "price": 10.79,
+      "image": "./src/images/menu/meals/BBQ-Brisket-Whopper-Meals.png"
+    },
+    {
+      "id": 33,
+      "name": "BBQ Brisket Whopper® Jr. Meals",
+      "price": 10.79,
+      "image": "./src/images/menu/meals/BBQ-Brisket-Whopper-Jr-Meals.png"
+    },
+    {
+      "id": 34,
+      "name": "Whopper Meal",
+      "price": 10.79,
+      "image": "./src/images/menu/meals/whopper-meal.png"
+    },
+    {
+      "id": 35,
+      "name": "Double Whopper Meal",
+      "price": 12.19,
+      "image": "./src/images/menu/meals/double-whopper-meal.png"
+    },
+    {
+      "id": 36,
+      "name": "Bacon King Meal",
+      "price": 14.89,
+      "image": "./src/images/menu/meals/bacon-king-meal.png"
+    },
+    {
+      "id": 37,
+      "name": "Original Chicken Sandwich Meal",
+      "price": 9.99,
+      "image": "./src/images/menu/meals/original-chicken-sandwich-meal.png"
+    },
+    {
+      "id": 38,
+      "name": "Royal Crispy Chicken Meal",
+      "price": 10.09,
+      "image": "./src/images/menu/meals/royal-crispy-chicken-meal.png"
+    },
+    {
+      "id": 39,
+      "name": "Big Fish Meal",
+      "price": 10.09,
+      "image": "./src/images/menu/meals/big-fish-meal.png"
+    }
+  ],
+  "sweets": [
+    {
+      "id": 40,
+      "name": "Hershey's Sundae Pie",
+      "price": 2.99,
+      "image": "./src/images/menu/sweets/hershey-s-sundae-pie.png"
+    },
+    {
+      "id": 41,
+      "name": "HERSHEY'S® Sundae",
+      "price": 1.99,
+      "image": "./src/images/menu/sweets/chocolate-sundae.png"
+    },
+    {
+      "id": 42,
+      "name": "OREO® Sundae",
+      "price": 2.59,
+      "image": "./src/images/menu/sweets/OREO-Sundae.png"
+    },
+    {
+      "id": 43,
+      "name": "Strawberry Shake",
+      "price": 3.39,
+      "image": "./src/images/menu/sweets/strawberry-shake.png"
+    },
+    {
+      "id": 44,
+      "name": "Chocolate Oreo® Shake",
+      "price": 3.59,
+      "image": "./src/images/menu/sweets/Chocolate-Oreo-Shake.png"
+    },
+    {
+      "id": 45,
+      "name": "Chocolate Shake",
+      "price": 3.39,
+      "image": "./src/images/menu/sweets/Chocolate-Shake.png"
+    },
+    {
+      "id": 46,
+      "name": "Vanilla Cone",
+      "price": 1.49,
+      "image": "./src/images/menu/sweets/vanilla-cone.png"
+    },
+    {
+      "id": 47,
+      "name": "2 Chocolate Chip Cookies",
+      "price": 1.49,
+      "image": "./src/images/menu/sweets/2-Chocolate-Chip-Cookies.png"
     }
   ]
 }
