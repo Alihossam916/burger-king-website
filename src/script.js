@@ -20,7 +20,7 @@ let data = {};
 const loadData = async () => {
   try {
     // 1. Fetching the file
-    const response = await fetch("../burger-king-menu.json");
+    const response = await fetch("./burger-king-menu.json");
 
     // 2. Parsing the JSON data
     data = await response.json();    
